@@ -4,7 +4,7 @@ from PIL import Image
 
 st.set_page_config(page_title="苹果叶病识别系统", layout="centered")
 st.title("🍎 苹果叶病识别系统（演示版）")
-st.markdown("> ⚠️ 科研演示版本：识别结果仅供参考，置信度通常在30-60%之间")
+st.markdown("> ⚠️ 科研演示版本：识别结果仅供参考，置信度通常在30-80%之间")
 
 name_mapping = {
     "cedar rust": "苹果雪松锈病",
