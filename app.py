@@ -18,7 +18,7 @@ def load_model():
 
 model = load_model()
 
-st.markdown("**📸 操作说明：点击「Browse files」，选择苹果叶片照片上传**")
+st.markdown("**📸 操作说明：点击「upload」，选择苹果叶片照片上传**")
 
 uploaded_file = st.file_uploader("上传苹果叶片照片", type=["jpg", "jpeg", "png"], label_visibility="collapsed")
 
